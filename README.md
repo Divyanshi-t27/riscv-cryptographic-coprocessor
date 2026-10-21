@@ -77,6 +77,10 @@ For the full metrics table, timing analysis, and visual comparisons, see [`resul
 ## Repository Structure
 
 ```text
+
+## Repository Structure
+
+```text
 riscv-cryptographic-coprocessor/
 ├── README.md
 ├── docs/
@@ -90,12 +94,12 @@ riscv-cryptographic-coprocessor/
 │   ├── sharing_impact.png
 │   └── synthesis_results.md
 └── rtl/
-    ├── soc_top.v
-    ├── crypto_mmio.v
     ├── AES/
     ├── PRESENT/
     ├── SHARED ARCH/
-    └── ...
+    ├── UNSHARED ARCH/
+    ├── crypto_mmio.v
+    └── soc_top.v
 ```
 
 *The tree is illustrative. Refer to the repository for the complete source-file inventory and actual directory names.*
